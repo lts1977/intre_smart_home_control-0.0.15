@@ -2,7 +2,7 @@
 
 **版本**: 0.0.15  
 **域名**: `intre_smart_home_control`  
-**作者**: 平头哥(Honey Badger) 和 坤哥(Kun Master)  
+**作者**: LITIANSHEN(LTS) 和 坤哥(Kun Master)  
 **集成类型**: hub（配置流 + 选项流）  
 **依赖**: `qrcode>=8.1`
 
