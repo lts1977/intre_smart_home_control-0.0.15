@@ -1,0 +1,38 @@
+{
+  "domain": "intre_smart_home_control",
+  "name": "Intre Smart Home Control LTS",
+  "config_flow": true,
+  "option_flow": true,
+  "integration_type": "hub",
+  "dependencies": [],
+  "requirements": [
+    "qrcode>=8.1"
+  ],
+  "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_light/",
+  "version": "0.0.15",
+  "codeowners": ["@W"],
+  "services": [
+    {
+      "name": "add_entity",
+      "description": "Add an entity to the selective sync list.",
+      "fields": {
+        "entity_id": {
+          "description": "Entity ID to add (e.g. light.living_room)",
+          "example": "light.living_room",
+          "required": true
+        }
+      }
+    },
+    {
+      "name": "remove_entity",
+      "description": "Remove an entity from the selective sync list.",
+      "fields": {
+        "entity_id": {
+          "description": "Entity ID to remove",
+          "example": "light.living_room",
+          "required": true
+        }
+      }
+    }
+  ]
+}
